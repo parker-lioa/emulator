@@ -1,0 +1,13 @@
+.bit-grids{
+    display: flex;
+    border: 1px solid gray;
+}
+
+.bit-grid{
+    padding: 3px 8px;
+    border-right: 1px solid gray;
+}
+
+.bit-grids .bit-grid:last-child{
+    border: none;
+}

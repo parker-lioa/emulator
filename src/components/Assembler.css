@@ -1,0 +1,34 @@
+.assembler-container {
+  float: left;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.code-area {
+  padding: 20px;
+}
+.code {
+  box-sizing: border-box;
+  width: 100%;
+  height: 665px;
+  padding: 10px;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+.run-and-error {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.error-message {
+  margin-right: 20px;
+  color: #e74c3c;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

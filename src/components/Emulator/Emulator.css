@@ -1,0 +1,100 @@
+.emulator-container {
+  float: right;
+  width: 49%;
+}
+
+.emulator-panel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.setting-panel{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.oscillator-frequency{
+  margin-right: 20px;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 0.1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+.cpu-status{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.show-bit-container{
+  display: flex;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0px;
+}
+
+.program-counter{
+  flex-basis: 500px;
+}
+
+.port-panel{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.debug-section{
+  flex-direction: column;
+}
+
+.instruction-control{
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.btn-next{
+  margin-right: 20px;
+}
+
+.btn-reset{
+
+}
+
+.instructions{
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.instruction{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rom-address{
+
+  flex:2 2;
+}
+
+.opcode{
+  flex:2 2;
+}
+
+.mnemonic{
+  flex:1 1;
+}
+
+.current-instruction{
+  font-weight: 700;
+  color:#9b59b6;
+  margin: 5px 0px;
+}

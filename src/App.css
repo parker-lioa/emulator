@@ -1,0 +1,28 @@
+.main {
+  margin: auto;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-bottom: 2px solid gray;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #34495e;
+}
+ 
